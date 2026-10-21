@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "7800f874-9ba1-4eeb-b84f-ce168c30e23c",
+      "name": "Check Test Fail",
+      "author": "obutora",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#737373",
+        "background": "#000000",
+        "cursor": "#7FD1C7",
+        "selection": "#E6E8EF66",
+        "black": "#1C222B",
+        "red": "#E86A6A",
+        "green": "#7FCB8A",
+        "yellow": "#E8C66A",
+        "blue": "#6A9FE8",
+        "magenta": "#C08AE6",
+        "cyan": "#6ACFD8",
+        "white": "#C9CED8",
+        "brightBlack": "#4A5363",
+        "brightRed": "#F28B8B",
+        "brightGreen": "#9BE0A5",
+        "brightYellow": "#F2D88B",
+        "brightBlue": "#8BB8F2",
+        "brightMagenta": "#D4A8F0",
+        "brightCyan": "#8BE3EA",
+        "brightWhite": "#F4F6FA",
+        "searchHitBackground": "#FFB86C",
+        "searchHitBackgroundCurrent": "#FF79C6",
+        "searchHitForeground": "#282A36"
+      }
+    }
+  ]
+}
