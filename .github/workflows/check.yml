@@ -1,0 +1,42 @@
+# Checks a PR to the gallery. pull_request_target runs this file and the check
+# code as they are on the base branch (main), never as the PR has them: the PR
+# may come from any fork and change anything. The PR's files are only read as
+# data over the API (check/run.js); nothing of the PR is checked out or run.
+# No secrets; the token may read the repository and comment on the PR.
+name: Check themes
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # The base branch's commit (pull_request_target's default). Do not set
+      # `ref` to the PR's head.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+
+      - run: npm ci --ignore-scripts
+
+      - name: Check the PR's themes
+        run: node check/main.js
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          # Optional: another copy of the schema (repository variable).
+          THEME_SCHEMA_URL: ${{ vars.THEME_SCHEMA_URL }}

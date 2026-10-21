@@ -1,0 +1,20 @@
+name: Take down my theme / 自分のテーマを取り下げてほしい
+description: Remove a theme you sent from the gallery. / 自分が送ったテーマをギャラリーから消す。
+title: "Take down: "
+labels: [takedown]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Open this from the GitHub account the theme's directory is named after (`themes/<login>/`); then the theme is removed without asking why.
+        Removing it takes it off the site only: a theme already imported in a terminal stays there, and theme links already shared keep working.
+
+        テーマのディレクトリ名（`themes/<ログイン名>/`）のアカウントから開いてください。理由は聞かずに消します。
+        消えるのはサイトの上だけです。端末に入ったテーマは残り、貼られたテーマのリンクも開けます。
+  - type: input
+    id: theme
+    attributes:
+      label: The theme's file or page / テーマのファイルかページ
+      description: "e.g. themes/octocat/1b4e28ba-2fa1-41d2-883f-0016d3cca427.json or https://sshterm.iru-yo.com/themes/…"
+    validations:
+      required: true
