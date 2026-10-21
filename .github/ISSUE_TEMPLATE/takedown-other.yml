@@ -1,0 +1,38 @@
+name: Take down someone else's theme / 他人のテーマを取り下げてほしい
+description: Ask to remove a theme someone else sent. / ほかの人が送ったテーマを消してほしいと頼む。
+title: "Take down (other): "
+labels: [takedown]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The developer reads the reason and decides. For a theme you sent yourself, use "Take down my theme" instead.
+        Removing it takes it off the site only: a theme already imported in a terminal stays there, and theme links already shared keep working.
+
+        理由を読んで開発者が判断します。自分が送ったテーマなら「自分のテーマを取り下げてほしい」を使ってください。
+        消えるのはサイトの上だけです。端末に入ったテーマは残り、貼られたテーマのリンクも開けます。
+  - type: input
+    id: theme
+    attributes:
+      label: The theme's file or page / テーマのファイルかページ
+      description: "e.g. themes/octocat/1b4e28ba-2fa1-41d2-883f-0016d3cca427.json or https://sshterm.iru-yo.com/themes/…"
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Why / 理由
+      options:
+        - It copies my theme without saying so / 自分のテーマを元にしたと書かずに写している
+        - It passes itself off as me or as a well-known theme / 自分か有名なテーマをかたっている
+        - Its name or author is offensive / 名前か作者が不快
+        - Other / その他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / 詳しく
+      description: What shows it, with links if you have them. / 根拠（あればリンク）。
+    validations:
+      required: true

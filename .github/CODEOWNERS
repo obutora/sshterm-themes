@@ -1,0 +1,8 @@
+# The developer reviews every change to the workflows and the check. Theme
+# files (themes/) have no owner here: the check keeps each account to its own
+# directory.
+/.github/ @obutora
+/check/ @obutora
+/test/ @obutora
+/package.json @obutora
+/package-lock.json @obutora

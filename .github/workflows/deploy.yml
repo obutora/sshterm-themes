@@ -1,0 +1,33 @@
+# A push to main (a merged theme) rebuilds the gallery on sshterm.iru-yo.com:
+# the site is built in obutora/sshterm-open by Cloudflare Pages, started by a
+# deploy hook. The hook's URL is the only secret, kept apart from the PR check.
+name: Deploy the gallery
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Call the Cloudflare Pages deploy hook
+        env:
+          HOOK: ${{ secrets.CF_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "CF_DEPLOY_HOOK_URL is not set: skipping the deploy hook."
+            exit 0
+          fi
+          echo "Calling the deploy hook for ${GITHUB_SHA}."
+          curl --fail-with-body --silent --show-error --max-time 60 -X POST "$HOOK"
+          echo
+          echo "Called the deploy hook."

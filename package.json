@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ajv": "^8.20.0"
+  }
+}
