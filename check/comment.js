@@ -1,6 +1,6 @@
 // The check's comment on a PR: what broke which rule, in English and Japanese.
 
-import { MIN_CONTRAST } from './contrast.js';
+import { MIN_CONTRAST } from './theme-format.js';
 
 // The app's reasons a document is not a theme (ThemeFormatProblem).
 const REASONS = {
@@ -52,8 +52,8 @@ function explain(p, author) {
       ];
     case 'removed':
       return [
-        'removes a file. To take a theme down, open an issue ("Take down a theme").',
-        'ファイルを消しています。テーマの取り下げは Issue（「テーマを取り下げてほしい」）で受けます。',
+        'removes a file. To take your theme down, open an issue ("Take down my theme").',
+        'ファイルを消しています。自分のテーマの取り下げは Issue（「自分のテーマを取り下げてほしい」）で受けます。',
       ];
     case 'unsupportedChange':
       return [`changes the file in a way the gallery does not take (${p.status}).`, `ギャラリーが受けない変え方です（${p.status}）。`];

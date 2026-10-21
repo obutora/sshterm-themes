@@ -9,10 +9,10 @@ To send a theme: [CONTRIBUTING.md](CONTRIBUTING.md) ([日本語](CONTRIBUTING.ja
 - `themes/<GitHub login>/<id>.json`: one theme each, in [format v1](https://sshterm.iru-yo.com/themes/format), named after the theme's id. The directory is the account that sent the theme and the only one that may change it; there is no other record of it. Only the developer moves a theme to another directory. The gallery lists themes in the order their files were first added to `main`.
 - `check/`: the check of a pull request (Node, no build).
   - `main.js`: the workflow's entry. `run.js`: reads the PR's files over the GitHub API, the gallery from the base branch's checkout, and leaves the verdict in one comment on the PR. `github.js`: the API calls.
-  - `rules.js`: the gallery's rules over that data (`checkPullRequest`). `contrast.js`: WCAG contrast. `comment.js`: the comment.
-  - `theme-format.js`: the rules of format v1, **copied** from `public/theme-format.js` in sshterm-open, the same as the app's (the header names the commit). Change them there and copy them again.
+  - `rules.js`: the gallery's rules over that data (`checkPullRequest`). `comment.js`: the comment.
+  - `theme-format.js`: the rules of format v1, **copied** from `public/theme-format.js` in sshterm-open, the same as the app's (the header names the commit), with the gallery's shared with the site's build: the id pattern, the name comparison (`nameKey`) and the WCAG contrast. Change them there and copy them again.
 - `test/`: `npm test` (`node --test`). `test/fixtures/schema-v1.json` is a copy of the published schema for the tests; the check fetches the published one.
-- `.github/workflows/check.yml`: the check, on `pull_request_target`. `.github/workflows/deploy.yml`: on a push to `main`, calls the Cloudflare Pages deploy hook that rebuilds the site.
+- `.github/workflows/check.yml`: the check, on `pull_request_target`. It fetches the published schema; the `THEME_SCHEMA_URL` repository variable, if set, points it at another copy. `.github/workflows/deploy.yml`: on a push to `main`, calls the Cloudflare Pages deploy hook that rebuilds the site.
 
 ## Why the check is shaped this way
 

@@ -1,5 +1,5 @@
 // VENDORED: a copy of public/theme-format.js from obutora/sshterm-open at
-// 878227ead34c5a8b1ae1c9ffb31cb921f31c09d8 (branch feat/themes). Do not edit here:
+// de59bdf71fc4de17c7b0f964f46eff73dc4c1e28 (branch ct/review-fixes, for feat/themes). Do not edit here:
 // change it in sshterm-open (and in the app, ThemeFormat) and copy it again,
 // so the gallery's CI keeps the same rules as the app and the theme page.
 //
@@ -40,7 +40,8 @@ export const DEFAULT_SEARCH_HITS = {
 /** The opacity (of 255) a missing 選択 takes over the 前景: 40%. */
 export const SELECTION_ALPHA = 0x66;
 
-const ID = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
+/** A theme's id: a lowercase UUID v4 (the gallery's file names are these too). */
+export const THEME_ID = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/;
 const COLOR = /^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$/;
 
 /** True for a `#RRGGBB` or `#RRGGBBAA` colour (no surrounding spaces). */
@@ -127,7 +128,7 @@ function readTheme(value, index) {
   };
 
   const id = need(value, 'id', 'id', 'string');
-  if (!ID.test(id)) fail('badId', 'id');
+  if (!THEME_ID.test(id)) fail('badId', 'id');
   const theme = {
     id,
     name: text(value, 'name', 'name'),
@@ -220,19 +221,23 @@ export function validateThemeDocument(obj) {
   return result(() => validate(obj));
 }
 
-/** validateThemeDocument for raw bytes (Uint8Array) of UTF-8 JSON. */
+/**
+ * validateThemeDocument for raw bytes (Uint8Array) of UTF-8 JSON; when ok,
+ * also the parsed document as it is (doc), for a JSON Schema to check.
+ */
 export function validateThemeBytes(bytes) {
-  return result(() => {
+  let doc;
+  const checked = result(() => {
     if (bytes.length > MAX_BYTES) throw new Problem('tooLarge');
-    let obj;
     try {
       // A BOM is kept, so JSON.parse refuses it as the app does.
-      obj = JSON.parse(new TextDecoder('utf-8', { fatal: true, ignoreBOM: true }).decode(bytes));
+      doc = JSON.parse(new TextDecoder('utf-8', { fatal: true, ignoreBOM: true }).decode(bytes));
     } catch {
       throw new Problem('notJson');
     }
-    return validate(obj);
+    return validate(doc);
   });
+  return checked.ok ? { ...checked, doc } : checked;
 }
 
 // テーマのリンク: t = one theme's document, deflate-raw, base64url (no padding).
@@ -306,4 +311,49 @@ export async function encodeThemeLink(doc) {
   const json = new TextEncoder().encode(JSON.stringify(doc));
   const stream = new Blob([json]).stream().pipeThrough(new CompressionStream('deflate-raw'));
   return base64UrlEncode(new Uint8Array(await new Response(stream).arrayBuffer()));
+}
+
+// ── The gallery's ───────────────────────────────────────────────────────────
+// Not the app's rules: the gallery's build and sshterm-themes' check (through
+// its vendored copy) share them from here.
+
+/**
+ * What two names that the gallery counts as the same share: NFKC with the
+ * case folded (upper then lower case, so ß and SS meet), then NFKC again.
+ */
+export function nameKey(name) {
+  return name.normalize('NFKC').toUpperCase().toLowerCase().normalize('NFKC');
+}
+
+/** The gallery's least contrast of the 前景 on the 背景 (WCAG 2). */
+export const MIN_CONTRAST = 4.5;
+
+const channels = (hex) => [1, 3, 5, 7].map((i) => parseInt(hex.slice(i, i + 2) || 'FF', 16));
+
+function luminanceOf([r, g, b]) {
+  const lin = (c) => {
+    const s = c / 255;
+    return s <= 0.04045 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+  };
+  return 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+}
+
+/** The WCAG relative luminance of a #RRGGBB(AA) colour; its alpha is not counted. */
+export function relativeLuminance(color) {
+  return luminanceOf(channels(color));
+}
+
+/**
+ * The WCAG 2 contrast ratio (1–21) of [foreground] on [background], both
+ * `#RRGGBB` or `#RRGGBBAA` (https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio).
+ * The 前景 is laid over the 背景 by its opacity; the 背景's own opacity is not
+ * counted (what is behind the terminal is not known).
+ */
+export function contrastRatio(foreground, background) {
+  const [fr, fg, fb, fa] = channels(foreground);
+  const bg = channels(background).slice(0, 3);
+  const a = fa / 255;
+  const over = [fr, fg, fb].map((c, i) => c * a + bg[i] * (1 - a));
+  const [hi, lo] = [luminanceOf(over), luminanceOf(bg)].sort((x, y) => y - x);
+  return (hi + 0.05) / (lo + 0.05);
 }

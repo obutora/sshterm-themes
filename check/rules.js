@@ -6,21 +6,19 @@
 // the file named after the theme's id. The directory records the one account
 // that may change the theme.
 
-import { contrastRatio, MIN_CONTRAST } from './contrast.js';
-import { validateThemeBytes } from './theme-format.js';
-
-const FILE_NAME = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}\.json$/;
+import { MIN_CONTRAST, THEME_ID, contrastRatio, nameKey, validateThemeBytes } from './theme-format.js';
 
 /**
- * Where [path] puts a theme, or the rule it breaks: {dir, id} or {rule}.
+ * Where [path] puts a theme, or the rule it breaks: {id} or {rule}.
  * [author] is the login of the PR's author.
  */
 function placeOf(path, author) {
   const parts = path.split('/');
   if (parts.length < 3 || parts[0] !== 'themes') return { rule: 'outsideThemes' };
   if (parts[1] !== author) return { rule: 'notOwnDirectory' };
-  if (parts.length !== 3 || !FILE_NAME.test(parts[2])) return { rule: 'badFileName' };
-  return { dir: parts[1], id: parts[2].slice(0, -'.json'.length) };
+  const id = parts.length === 3 && parts[2].endsWith('.json') ? parts[2].slice(0, -'.json'.length) : '';
+  if (!THEME_ID.test(id)) return { rule: 'badFileName' };
+  return { id };
 }
 
 /** ajv's errors as lines: `/themes/0/name must NOT have more than 40 characters`. */
@@ -31,23 +29,14 @@ function schemaErrors(errors) {
 /**
  * The theme of a file's [bytes], or the rule it breaks: {theme} or
  * {rule, ...detail}. The app's rules first (they say which field, as the app
- * does), then the published schema.
+ * does), then the published schema over the same parsed document.
  */
 function readThemeFile(bytes, validateSchema) {
   const checked = validateThemeBytes(bytes);
   if (!checked.ok) return { rule: 'invalidTheme', ...checked.problems[0] };
-  const doc = JSON.parse(new TextDecoder().decode(bytes));
-  if (!validateSchema(doc)) return { rule: 'schema', errors: schemaErrors(validateSchema.errors) };
+  if (!validateSchema(checked.doc)) return { rule: 'schema', errors: schemaErrors(validateSchema.errors) };
   if (checked.themes.length !== 1) return { rule: 'notOneTheme' };
   return { theme: checked.themes[0] };
-}
-
-/**
- * What two names that the gallery counts as the same share: NFKC with the
- * case folded (upper then lower case, so ß and SS meet), then NFKC again.
- */
-export function nameKey(name) {
-  return name.normalize('NFKC').toUpperCase().toLowerCase().normalize('NFKC');
 }
 
 /** The theme in a gallery file's [bytes] as the app reads it, or null. */
