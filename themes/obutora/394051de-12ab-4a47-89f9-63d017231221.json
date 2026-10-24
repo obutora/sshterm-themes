@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "394051de-12ab-4a47-89f9-63d017231221",
+      "name": "Iceberg",
+      "author": "cocopon",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#C6C8D1",
+        "background": "#161821",
+        "cursor": "#C6C8D1",
+        "black": "#1E2132",
+        "red": "#E27878",
+        "green": "#B4BE82",
+        "yellow": "#E2A478",
+        "blue": "#84A0C6",
+        "magenta": "#A093C7",
+        "cyan": "#89B8C2",
+        "white": "#C6C8D1",
+        "brightBlack": "#6B7089",
+        "brightRed": "#E98989",
+        "brightGreen": "#C0CA8E",
+        "brightYellow": "#E9B189",
+        "brightBlue": "#91ACD1",
+        "brightMagenta": "#ADA0D3",
+        "brightCyan": "#95C4CE",
+        "brightWhite": "#D2D4DE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "53ad4540-55ee-4e16-9662-58dcde3a3d7f",
+      "name": "Cobalt2",
+      "author": "Wes Bos, Roberto Achar",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#FFFFFF",
+        "background": "#122738",
+        "cursor": "#FFC600",
+        "black": "#000000",
+        "red": "#FF628C",
+        "green": "#3AD900",
+        "yellow": "#FFC600",
+        "blue": "#0088FF",
+        "magenta": "#FB94FF",
+        "cyan": "#80FCFF",
+        "white": "#FFFFFF",
+        "brightBlack": "#0050A4",
+        "brightRed": "#FF628C",
+        "brightGreen": "#3AD900",
+        "brightYellow": "#FFC600",
+        "brightBlue": "#0088FF",
+        "brightMagenta": "#FB94FF",
+        "brightCyan": "#80FCFF",
+        "brightWhite": "#FFFFFF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "8b0a6a10-9336-4442-a612-6873f1522626",
+      "name": "Tokyo Night Storm",
+      "author": "Enkia",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#8089B3",
+        "background": "#1F2335",
+        "selection": "#6F7BB640",
+        "black": "#414868",
+        "red": "#F7768E",
+        "green": "#73DACA",
+        "yellow": "#E0AF68",
+        "blue": "#7AA2F7",
+        "magenta": "#BB9AF7",
+        "cyan": "#7DCFFF",
+        "white": "#8089B3",
+        "brightBlack": "#414868",
+        "brightRed": "#F7768E",
+        "brightGreen": "#73DACA",
+        "brightYellow": "#E0AF68",
+        "brightBlue": "#7AA2F7",
+        "brightMagenta": "#BB9AF7",
+        "brightCyan": "#7DCFFF",
+        "brightWhite": "#A9B1D6"
+      }
+    }
+  ]
+}

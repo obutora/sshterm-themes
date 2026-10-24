@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "32d0a088-982b-4703-b8ff-7c024edfa7e6",
+      "name": "Moonfly",
+      "author": "vim-moonfly-colors authors",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#BDBDBD",
+        "background": "#080808",
+        "cursor": "#8E8E8E",
+        "black": "#323437",
+        "red": "#FF5D5D",
+        "green": "#8CC85F",
+        "yellow": "#E3C78A",
+        "blue": "#80A0FF",
+        "magenta": "#CF87E8",
+        "cyan": "#79DAC8",
+        "white": "#C6C6C6",
+        "brightBlack": "#949494",
+        "brightRed": "#FF5189",
+        "brightGreen": "#36C692",
+        "brightYellow": "#C6C684",
+        "brightBlue": "#74B2FF",
+        "brightMagenta": "#AE81FF",
+        "brightCyan": "#85DC85",
+        "brightWhite": "#E4E4E4"
+      }
+    }
+  ]
+}

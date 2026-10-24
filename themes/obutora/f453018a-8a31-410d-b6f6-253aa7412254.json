@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "f453018a-8a31-410d-b6f6-253aa7412254",
+      "name": "Flexoki Light",
+      "author": "Steph Ango",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#100F0F",
+        "background": "#FFFCF0",
+        "cursor": "#100F0F",
+        "black": "#100F0F",
+        "red": "#AF3029",
+        "green": "#66800B",
+        "yellow": "#C19C00",
+        "blue": "#205EA6",
+        "magenta": "#5E409D",
+        "cyan": "#24837B",
+        "white": "#F2F0E5",
+        "brightBlack": "#575653",
+        "brightRed": "#D14D41",
+        "brightGreen": "#879A39",
+        "brightYellow": "#D0A215",
+        "brightBlue": "#4385BE",
+        "brightMagenta": "#8B7EC8",
+        "brightCyan": "#3AA99F",
+        "brightWhite": "#FFFCF0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "6053b862-46bf-4b30-b08e-bb477beadbc1",
+      "name": "Melange Dark",
+      "author": "Sergio Alejandro Vargas",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#ECE1D7",
+        "background": "#292522",
+        "black": "#34302C",
+        "red": "#BD8183",
+        "green": "#78997A",
+        "yellow": "#E49B5D",
+        "blue": "#7F91B2",
+        "magenta": "#B380B0",
+        "cyan": "#7B9695",
+        "white": "#C1A78E",
+        "brightBlack": "#867462",
+        "brightRed": "#D47766",
+        "brightGreen": "#85B695",
+        "brightYellow": "#EBC06D",
+        "brightBlue": "#A3A9CE",
+        "brightMagenta": "#CF9BC2",
+        "brightCyan": "#89B3B6",
+        "brightWhite": "#ECE1D7"
+      }
+    }
+  ]
+}

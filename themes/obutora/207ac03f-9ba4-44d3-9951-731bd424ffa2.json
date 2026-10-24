@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "207ac03f-9ba4-44d3-9951-731bd424ffa2",
+      "name": "Ayu Mirage",
+      "author": "Ike Kurghinyan",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#CCCAC2",
+        "background": "#1F2430",
+        "selection": "#409FFF40",
+        "black": "#171B24",
+        "red": "#F28273",
+        "green": "#87D96C",
+        "yellow": "#FCCA60",
+        "blue": "#6ACDFF",
+        "magenta": "#DDBBFF",
+        "cyan": "#93E2C8",
+        "white": "#C7C7C7",
+        "brightBlack": "#686868",
+        "brightRed": "#F28779",
+        "brightGreen": "#D5FF80",
+        "brightYellow": "#FFCD66",
+        "brightBlue": "#73D0FF",
+        "brightMagenta": "#DFBFFF",
+        "brightCyan": "#95E6CB",
+        "brightWhite": "#FFFFFF"
+      }
+    }
+  ]
+}

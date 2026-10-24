@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "65d0ca7d-27e6-477b-8127-4ee73563414e",
+      "name": "Rosé Pine",
+      "author": "Rosé Pine",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#E0DEF4",
+        "background": "#191724",
+        "cursor": "#524F67",
+        "black": "#26233A",
+        "red": "#EB6F92",
+        "green": "#31748F",
+        "yellow": "#F6C177",
+        "blue": "#9CCFD8",
+        "magenta": "#C4A7E7",
+        "cyan": "#EBBCBA",
+        "white": "#E0DEF4",
+        "brightBlack": "#6E6A86",
+        "brightRed": "#EB6F92",
+        "brightGreen": "#31748F",
+        "brightYellow": "#F6C177",
+        "brightBlue": "#9CCFD8",
+        "brightMagenta": "#C4A7E7",
+        "brightCyan": "#EBBCBA",
+        "brightWhite": "#E0DEF4"
+      }
+    }
+  ]
+}

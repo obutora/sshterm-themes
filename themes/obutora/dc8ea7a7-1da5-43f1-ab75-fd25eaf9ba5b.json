@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "dc8ea7a7-1da5-43f1-ab75-fd25eaf9ba5b",
+      "name": "Night Owl",
+      "author": "Sarah Drasner",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#CCCCCC",
+        "background": "#011627",
+        "selection": "#1B90DD4D",
+        "black": "#011627",
+        "red": "#EF5350",
+        "green": "#22DA6E",
+        "yellow": "#C5E478",
+        "blue": "#82AAFF",
+        "magenta": "#C792EA",
+        "cyan": "#21C7A8",
+        "white": "#FFFFFF",
+        "brightBlack": "#575656",
+        "brightRed": "#EF5350",
+        "brightGreen": "#22DA6E",
+        "brightYellow": "#FFEB95",
+        "brightBlue": "#82AAFF",
+        "brightMagenta": "#C792EA",
+        "brightCyan": "#7FDBCA",
+        "brightWhite": "#FFFFFF"
+      }
+    }
+  ]
+}

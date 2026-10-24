@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "ed4dccda-3154-4bdc-8fc7-3dff36d749bf",
+      "name": "Rosebones Light",
+      "author": "Michael Chris Lopez",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#724341",
+        "background": "#FBF6F0",
+        "cursor": "#724341",
+        "black": "#FBF6F0",
+        "red": "#B5637A",
+        "green": "#286A84",
+        "yellow": "#EC9D33",
+        "blue": "#5795A0",
+        "magenta": "#917BA9",
+        "cyan": "#5795A0",
+        "white": "#724341",
+        "brightBlack": "#E8C48B",
+        "brightRed": "#A54A66",
+        "brightGreen": "#1C5970",
+        "brightYellow": "#C68223",
+        "brightBlue": "#407D88",
+        "brightMagenta": "#855AAC",
+        "brightCyan": "#407D88",
+        "brightWhite": "#A4635F"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "f89dc362-3305-4425-b695-2fce47b227ec",
+      "name": "Selenized Dark",
+      "author": "Jan Warchoł",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#ADBCBC",
+        "background": "#103C48",
+        "black": "#184956",
+        "red": "#FA5750",
+        "green": "#75B938",
+        "yellow": "#DBB32D",
+        "blue": "#4695F7",
+        "magenta": "#F275BE",
+        "cyan": "#41C7B9",
+        "white": "#72898F",
+        "brightBlack": "#2D5B69",
+        "brightRed": "#FF665C",
+        "brightGreen": "#84C747",
+        "brightYellow": "#EBC13D",
+        "brightBlue": "#58A3FF",
+        "brightMagenta": "#FF84CD",
+        "brightCyan": "#53D6C7",
+        "brightWhite": "#CAD8D9"
+      }
+    }
+  ]
+}

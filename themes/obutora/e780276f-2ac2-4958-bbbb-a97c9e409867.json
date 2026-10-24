@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "e780276f-2ac2-4958-bbbb-a97c9e409867",
+      "name": "Tomorrow Night Eighties",
+      "author": "Chris Kempson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#CCCCCC",
+        "background": "#2D2D2D",
+        "cursor": "#AEAFAD",
+        "black": "#000000",
+        "red": "#F2777A",
+        "green": "#99CC99",
+        "yellow": "#F99157",
+        "blue": "#6699CC",
+        "magenta": "#CC99CC",
+        "cyan": "#66CCCC",
+        "white": "#515151",
+        "brightBlack": "#666666",
+        "brightRed": "#FF3334",
+        "brightGreen": "#9EC400",
+        "brightYellow": "#FFCC66",
+        "brightBlue": "#6699CC",
+        "brightMagenta": "#B777E0",
+        "brightCyan": "#54CED6",
+        "brightWhite": "#393939"
+      }
+    }
+  ]
+}

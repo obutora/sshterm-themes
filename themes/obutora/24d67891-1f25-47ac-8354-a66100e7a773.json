@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "24d67891-1f25-47ac-8354-a66100e7a773",
+      "name": "Dark Modern",
+      "author": "Microsoft Corporation",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#CCCCCC",
+        "background": "#181818",
+        "black": "#000000",
+        "red": "#CD3131",
+        "green": "#0DBC79",
+        "yellow": "#E5E510",
+        "blue": "#2472C8",
+        "magenta": "#BC3FBC",
+        "cyan": "#11A8CD",
+        "white": "#E5E5E5",
+        "brightBlack": "#666666",
+        "brightRed": "#F14C4C",
+        "brightGreen": "#23D18B",
+        "brightYellow": "#F5F543",
+        "brightBlue": "#3B8EEA",
+        "brightMagenta": "#D670D6",
+        "brightCyan": "#29B8DB",
+        "brightWhite": "#E5E5E5"
+      }
+    }
+  ]
+}

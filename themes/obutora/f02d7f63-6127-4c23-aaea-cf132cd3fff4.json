@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "f02d7f63-6127-4c23-aaea-cf132cd3fff4",
+      "name": "Night Owl Light",
+      "author": "Sarah Drasner",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#403F53",
+        "background": "#F6F6F6",
+        "black": "#403F53",
+        "red": "#DE3D3B",
+        "green": "#08916A",
+        "yellow": "#E0AF02",
+        "blue": "#288ED7",
+        "magenta": "#D6438A",
+        "cyan": "#2AA298",
+        "white": "#93A1A1",
+        "brightBlack": "#403F53",
+        "brightRed": "#DE3D3B",
+        "brightGreen": "#08916A",
+        "brightYellow": "#DAAA01",
+        "brightBlue": "#288ED7",
+        "brightMagenta": "#D6438A",
+        "brightCyan": "#2AA298",
+        "brightWhite": "#93A1A1"
+      }
+    }
+  ]
+}

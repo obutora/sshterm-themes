@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "77e1d916-bf44-493d-802e-7be946e89c02",
+      "name": "PaperColor Dark",
+      "author": "Nikyle Nguyen",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#D0D0D0",
+        "background": "#1C1C1C",
+        "cursor": "#C6C6C6",
+        "black": "#1C1C1C",
+        "red": "#AF005F",
+        "green": "#5FAF00",
+        "yellow": "#D7AF5F",
+        "blue": "#5FAFD7",
+        "magenta": "#808080",
+        "cyan": "#D7875F",
+        "white": "#D0D0D0",
+        "brightBlack": "#585858",
+        "brightRed": "#5FAF5F",
+        "brightGreen": "#AFD700",
+        "brightYellow": "#AF87D7",
+        "brightBlue": "#FFAF00",
+        "brightMagenta": "#FF5FAF",
+        "brightCyan": "#00AFAF",
+        "brightWhite": "#5F8787"
+      }
+    }
+  ]
+}

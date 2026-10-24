@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "f1aa2e34-f341-4873-a8cc-76e96899e203",
+      "name": "Noctis Lux",
+      "author": "Liviu Schera",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#005661",
+        "background": "#F6EDDA",
+        "cursor": "#005661",
+        "black": "#003B42",
+        "red": "#E34E1C",
+        "green": "#00B368",
+        "yellow": "#F49725",
+        "blue": "#0094F0",
+        "magenta": "#FF5792",
+        "cyan": "#00BDD6",
+        "white": "#8CA6A6",
+        "brightBlack": "#004D57",
+        "brightRed": "#FF4000",
+        "brightGreen": "#00D17A",
+        "brightYellow": "#FF8C00",
+        "brightBlue": "#0FA3FF",
+        "brightMagenta": "#FF6B9F",
+        "brightCyan": "#00CBE6",
+        "brightWhite": "#BBC3C4"
+      }
+    }
+  ]
+}
