@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "a1c43664-972b-4d31-9e1e-b0ceaba956a0",
+      "name": "Lemon Sorbet",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#3A3624",
+        "background": "#FBF8E3",
+        "cursor": "#B08A00",
+        "selection": "#E8D06A66",
+        "black": "#3A3624",
+        "red": "#B03A30",
+        "green": "#3F7530",
+        "yellow": "#7E6200",
+        "blue": "#2E5C9E",
+        "magenta": "#93407E",
+        "cyan": "#1F7272",
+        "white": "#E2DCC0",
+        "brightBlack": "#78715A",
+        "brightRed": "#C44E42",
+        "brightGreen": "#4F8A3E",
+        "brightYellow": "#937510",
+        "brightBlue": "#3F6FB2",
+        "brightMagenta": "#A65492",
+        "brightCyan": "#2A8686",
+        "brightWhite": "#FFFEF6",
+        "searchHitBackground": "#F0D84A",
+        "searchHitBackgroundCurrent": "#F0A090",
+        "searchHitForeground": "#3A3624"
+      }
+    }
+  ]
+}

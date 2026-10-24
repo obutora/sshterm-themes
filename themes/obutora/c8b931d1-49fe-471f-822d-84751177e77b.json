@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "c8b931d1-49fe-471f-822d-84751177e77b",
+      "name": "Charcoal Ember",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#E3D8CB",
+        "background": "#1C1917",
+        "cursor": "#F0954A",
+        "selection": "#F0954A4D",
+        "black": "#2A2522",
+        "red": "#E2725B",
+        "green": "#A8BF6A",
+        "yellow": "#E9B24F",
+        "blue": "#7FA3C8",
+        "magenta": "#CF8BA9",
+        "cyan": "#7FBFAE",
+        "white": "#CFC3B5",
+        "brightBlack": "#77695F",
+        "brightRed": "#F09078",
+        "brightGreen": "#C0D488",
+        "brightYellow": "#F5CA72",
+        "brightBlue": "#9DBBDB",
+        "brightMagenta": "#E0A6C0",
+        "brightCyan": "#9DD4C5",
+        "brightWhite": "#F7EFE6",
+        "searchHitBackground": "#E9B24F",
+        "searchHitBackgroundCurrent": "#E2725B",
+        "searchHitForeground": "#1C1917"
+      }
+    }
+  ]
+}

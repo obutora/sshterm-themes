@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "3e7b48e9-dba9-4363-ac82-173222d5d0f6",
+      "name": "Lavender Morning",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#2F2A40",
+        "background": "#F3F0FA",
+        "cursor": "#6E4FC2",
+        "selection": "#A893E066",
+        "black": "#2F2A40",
+        "red": "#B0365A",
+        "green": "#3A7550",
+        "yellow": "#826000",
+        "blue": "#3A5AB8",
+        "magenta": "#7E44B0",
+        "cyan": "#1F7186",
+        "white": "#DAD4EA",
+        "brightBlack": "#726A88",
+        "brightRed": "#C44C6E",
+        "brightGreen": "#498A60",
+        "brightYellow": "#977214",
+        "brightBlue": "#4E6ECC",
+        "brightMagenta": "#9258C4",
+        "brightCyan": "#2A8499",
+        "brightWhite": "#FFFFFF",
+        "searchHitBackground": "#F2D88A",
+        "searchHitBackgroundCurrent": "#E8A0C0",
+        "searchHitForeground": "#2F2A40"
+      }
+    }
+  ]
+}

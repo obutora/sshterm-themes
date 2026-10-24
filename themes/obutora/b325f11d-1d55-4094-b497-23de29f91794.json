@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "b325f11d-1d55-4094-b497-23de29f91794",
+      "name": "Washi Paper",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#3A3530",
+        "background": "#F5F0E6",
+        "cursor": "#C0502E",
+        "selection": "#C9A96E66",
+        "black": "#3A3530",
+        "red": "#B23A2E",
+        "green": "#4A7327",
+        "yellow": "#8A6400",
+        "blue": "#2D5F9A",
+        "magenta": "#8E3F7A",
+        "cyan": "#1E7470",
+        "white": "#D9D1C3",
+        "brightBlack": "#7A7064",
+        "brightRed": "#C9503F",
+        "brightGreen": "#5F8F35",
+        "brightYellow": "#A07800",
+        "brightBlue": "#3E73B0",
+        "brightMagenta": "#A3528F",
+        "brightCyan": "#2A8984",
+        "brightWhite": "#FFFDF8",
+        "searchHitBackground": "#E8C77A",
+        "searchHitBackgroundCurrent": "#E89A7A",
+        "searchHitForeground": "#3A3530"
+      }
+    }
+  ]
+}

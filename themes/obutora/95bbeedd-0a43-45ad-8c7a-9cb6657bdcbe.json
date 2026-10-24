@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "95bbeedd-0a43-45ad-8c7a-9cb6657bdcbe",
+      "name": "Phosphor Amber",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#FFC46B",
+        "background": "#17110A",
+        "cursor": "#FFC46B",
+        "selection": "#FFB0404D",
+        "black": "#2A2014",
+        "red": "#FF7A45",
+        "green": "#D8C85A",
+        "yellow": "#FFD27A",
+        "blue": "#C9A36A",
+        "magenta": "#FF9A6B",
+        "cyan": "#E8C98F",
+        "white": "#F0C890",
+        "brightBlack": "#7A6040",
+        "brightRed": "#FF9A70",
+        "brightGreen": "#E8DB85",
+        "brightYellow": "#FFE3A6",
+        "brightBlue": "#DDBD8D",
+        "brightMagenta": "#FFB894",
+        "brightCyan": "#F5DDB0",
+        "brightWhite": "#FFF0D6",
+        "searchHitBackground": "#FFD27A",
+        "searchHitBackgroundCurrent": "#FF7A45",
+        "searchHitForeground": "#17110A"
+      }
+    }
+  ]
+}

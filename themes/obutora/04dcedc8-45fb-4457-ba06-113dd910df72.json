@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "04dcedc8-45fb-4457-ba06-113dd910df72",
+      "name": "Neon Arcade",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#E8E3FF",
+        "background": "#120E24",
+        "cursor": "#FF4FD8",
+        "selection": "#7A4FFF66",
+        "black": "#1F1938",
+        "red": "#FF4F7B",
+        "green": "#3BF0B0",
+        "yellow": "#FFE45C",
+        "blue": "#5C8BFF",
+        "magenta": "#FF4FD8",
+        "cyan": "#3BD8FF",
+        "white": "#C9C2EA",
+        "brightBlack": "#6A5F9A",
+        "brightRed": "#FF7F9F",
+        "brightGreen": "#7CF7CB",
+        "brightYellow": "#FFEE94",
+        "brightBlue": "#8CAEFF",
+        "brightMagenta": "#FF85E4",
+        "brightCyan": "#7CE5FF",
+        "brightWhite": "#FFFFFF",
+        "searchHitBackground": "#FFE45C",
+        "searchHitBackgroundCurrent": "#FF4FD8",
+        "searchHitForeground": "#120E24"
+      }
+    }
+  ]
+}

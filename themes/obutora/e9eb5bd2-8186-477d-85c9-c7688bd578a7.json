@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "e9eb5bd2-8186-477d-85c9-c7688bd578a7",
+      "name": "Matcha Latte",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#2F3A2A",
+        "background": "#F0F2E4",
+        "cursor": "#5A8A3A",
+        "selection": "#A8C27A66",
+        "black": "#2F3A2A",
+        "red": "#A8402E",
+        "green": "#3D6E2A",
+        "yellow": "#7D6400",
+        "blue": "#2F5E8C",
+        "magenta": "#874A82",
+        "cyan": "#226E66",
+        "white": "#D6DAC5",
+        "brightBlack": "#6E7A62",
+        "brightRed": "#BC5340",
+        "brightGreen": "#4D8236",
+        "brightYellow": "#917610",
+        "brightBlue": "#3E70A0",
+        "brightMagenta": "#9A5C95",
+        "brightCyan": "#2E8076",
+        "brightWhite": "#FCFDF6",
+        "searchHitBackground": "#E8D37A",
+        "searchHitBackgroundCurrent": "#E8A08A",
+        "searchHitForeground": "#2F3A2A"
+      }
+    }
+  ]
+}

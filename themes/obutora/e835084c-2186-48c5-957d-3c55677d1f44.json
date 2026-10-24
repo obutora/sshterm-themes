@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "e835084c-2186-48c5-957d-3c55677d1f44",
+      "name": "Indigo Lacquer",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#E2DED3",
+        "background": "#141729",
+        "cursor": "#E8553F",
+        "selection": "#D9A84E40",
+        "black": "#20243A",
+        "red": "#E8553F",
+        "green": "#8DBF7A",
+        "yellow": "#D9A84E",
+        "blue": "#6C8FE0",
+        "magenta": "#C77DB5",
+        "cyan": "#5FB8C2",
+        "white": "#C6C2B8",
+        "brightBlack": "#5F6584",
+        "brightRed": "#F27A66",
+        "brightGreen": "#A9D498",
+        "brightYellow": "#E8C278",
+        "brightBlue": "#92ADEE",
+        "brightMagenta": "#DA9CCB",
+        "brightCyan": "#85CDD5",
+        "brightWhite": "#F5F2EA",
+        "searchHitBackground": "#D9A84E",
+        "searchHitBackgroundCurrent": "#E8553F",
+        "searchHitForeground": "#141729"
+      }
+    }
+  ]
+}

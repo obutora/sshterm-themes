@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "3889a17c-8529-4485-a6f7-f2d489939457",
+      "name": "Peach Cream",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#3E2E28",
+        "background": "#FDF3EB",
+        "cursor": "#D2603A",
+        "selection": "#F2A98266",
+        "black": "#3E2E28",
+        "red": "#B33A2E",
+        "green": "#47732E",
+        "yellow": "#845E00",
+        "blue": "#33609E",
+        "magenta": "#9C4078",
+        "cyan": "#217374",
+        "white": "#E6D6CA",
+        "brightBlack": "#7E6A60",
+        "brightRed": "#C84E40",
+        "brightGreen": "#57873A",
+        "brightYellow": "#997012",
+        "brightBlue": "#4573B2",
+        "brightMagenta": "#AF548C",
+        "brightCyan": "#2C8786",
+        "brightWhite": "#FFFBF7",
+        "searchHitBackground": "#F5D27A",
+        "searchHitBackgroundCurrent": "#F5A890",
+        "searchHitForeground": "#3E2E28"
+      }
+    }
+  ]
+}

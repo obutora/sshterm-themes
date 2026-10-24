@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "c0c7ad9d-45bf-4771-b2a9-ccb5848ed43e",
+      "name": "Moss Lantern",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#D2DCCF",
+        "background": "#151C18",
+        "cursor": "#E6C46B",
+        "selection": "#7FA88A59",
+        "black": "#222B26",
+        "red": "#D9776A",
+        "green": "#8DC07F",
+        "yellow": "#D8BE6A",
+        "blue": "#78A6C4",
+        "magenta": "#B994C4",
+        "cyan": "#78BFAF",
+        "white": "#BEC8BA",
+        "brightBlack": "#606E64",
+        "brightRed": "#E8958A",
+        "brightGreen": "#A9D69C",
+        "brightYellow": "#E8D38E",
+        "brightBlue": "#98BFD8",
+        "brightMagenta": "#CFAED8",
+        "brightCyan": "#98D4C6",
+        "brightWhite": "#EEF3EC",
+        "searchHitBackground": "#D8BE6A",
+        "searchHitBackgroundCurrent": "#D9776A",
+        "searchHitForeground": "#151C18"
+      }
+    }
+  ]
+}

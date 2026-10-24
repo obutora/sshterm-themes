@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "907d1d15-23ae-4c64-96da-494d56cb5191",
+      "name": "Cedar Night",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#CFE3DC",
+        "background": "#0B2423",
+        "cursor": "#E8B86A",
+        "selection": "#4F8A7A66",
+        "black": "#163331",
+        "red": "#E07A6E",
+        "green": "#7CC796",
+        "yellow": "#DFC072",
+        "blue": "#6FA9C9",
+        "magenta": "#C094C0",
+        "cyan": "#62C2B5",
+        "white": "#B9CCC4",
+        "brightBlack": "#5A7C77",
+        "brightRed": "#EE998F",
+        "brightGreen": "#9CDBB0",
+        "brightYellow": "#ECD496",
+        "brightBlue": "#92C2DC",
+        "brightMagenta": "#D3B1D3",
+        "brightCyan": "#8AD6CB",
+        "brightWhite": "#ECF5F1",
+        "searchHitBackground": "#DFC072",
+        "searchHitBackgroundCurrent": "#E07A6E",
+        "searchHitForeground": "#0B2423"
+      }
+    }
+  ]
+}

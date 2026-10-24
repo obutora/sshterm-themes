@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "79fb12a5-d627-4f6c-8187-2904295534ac",
+      "name": "Porcelain Blue",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#1E2E4A",
+        "background": "#F5F8FC",
+        "cursor": "#1F4FB0",
+        "selection": "#8AAEE866",
+        "black": "#1E2E4A",
+        "red": "#B2333F",
+        "green": "#2F7346",
+        "yellow": "#7F6300",
+        "blue": "#1F4FB0",
+        "magenta": "#7A3FA6",
+        "cyan": "#126E86",
+        "white": "#D6DFEC",
+        "brightBlack": "#66758F",
+        "brightRed": "#C6485A",
+        "brightGreen": "#3C8758",
+        "brightYellow": "#957512",
+        "brightBlue": "#3462C4",
+        "brightMagenta": "#8E54BA",
+        "brightCyan": "#1F8299",
+        "brightWhite": "#FFFFFF",
+        "searchHitBackground": "#F5DC8A",
+        "searchHitBackgroundCurrent": "#F2A3A8",
+        "searchHitForeground": "#1E2E4A"
+      }
+    }
+  ]
+}

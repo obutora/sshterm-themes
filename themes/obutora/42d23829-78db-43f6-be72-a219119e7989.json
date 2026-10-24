@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "42d23829-78db-43f6-be72-a219119e7989",
+      "name": "Sea Glass",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#24343A",
+        "background": "#EAF2EF",
+        "cursor": "#1F7A8C",
+        "selection": "#5FA8A866",
+        "black": "#24343A",
+        "red": "#B03A48",
+        "green": "#2B7444",
+        "yellow": "#836400",
+        "blue": "#2A5DA8",
+        "magenta": "#8A4A9C",
+        "cyan": "#167076",
+        "white": "#CCD9D5",
+        "brightBlack": "#6A7D80",
+        "brightRed": "#C24F5C",
+        "brightGreen": "#3D915B",
+        "brightYellow": "#9C7A10",
+        "brightBlue": "#3B70BC",
+        "brightMagenta": "#9D5DB0",
+        "brightCyan": "#258C92",
+        "brightWhite": "#F8FCFB",
+        "searchHitBackground": "#F2D58A",
+        "searchHitBackgroundCurrent": "#F0A0A8",
+        "searchHitForeground": "#24343A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "2ab5798b-e4f8-4945-8e42-497c92c632d7",
+      "name": "Frost Line",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#D3E0EA",
+        "background": "#0F1720",
+        "cursor": "#7FD6F0",
+        "selection": "#4F86A866",
+        "black": "#1B2632",
+        "red": "#EE7B87",
+        "green": "#7ED4A6",
+        "yellow": "#E6D38A",
+        "blue": "#78AEEA",
+        "magenta": "#B39CF0",
+        "cyan": "#6FD3E6",
+        "white": "#BCCAD6",
+        "brightBlack": "#5A6E80",
+        "brightRed": "#F79AA4",
+        "brightGreen": "#A0E4BF",
+        "brightYellow": "#F0E2AA",
+        "brightBlue": "#9CC6F2",
+        "brightMagenta": "#C9B8F6",
+        "brightCyan": "#98E2F0",
+        "brightWhite": "#F0F6FA",
+        "searchHitBackground": "#E6D38A",
+        "searchHitBackgroundCurrent": "#EE7B87",
+        "searchHitForeground": "#0F1720"
+      }
+    }
+  ]
+}

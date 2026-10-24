@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "369c04f1-b58d-4c62-9c82-13fd8e436aca",
+      "name": "Rust Canyon",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#EBD9CC",
+        "background": "#201513",
+        "cursor": "#E8853D",
+        "selection": "#C0603A59",
+        "black": "#2E1F1C",
+        "red": "#E5674E",
+        "green": "#B5B866",
+        "yellow": "#EBAE52",
+        "blue": "#8AA2C0",
+        "magenta": "#C98AA0",
+        "cyan": "#86B9A8",
+        "white": "#D4C2B5",
+        "brightBlack": "#7A625A",
+        "brightRed": "#F2876F",
+        "brightGreen": "#CCCF85",
+        "brightYellow": "#F5C67A",
+        "brightBlue": "#A8BCD5",
+        "brightMagenta": "#DCA6BA",
+        "brightCyan": "#A5CFC1",
+        "brightWhite": "#FAF0E8",
+        "searchHitBackground": "#EBAE52",
+        "searchHitBackgroundCurrent": "#E5674E",
+        "searchHitForeground": "#201513"
+      }
+    }
+  ]
+}

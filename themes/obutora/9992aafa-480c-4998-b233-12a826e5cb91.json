@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "9992aafa-480c-4998-b233-12a826e5cb91",
+      "name": "Graphite Signal",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#E4E6E8",
+        "background": "#111315",
+        "cursor": "#3DDC97",
+        "selection": "#4A90E266",
+        "black": "#1E2124",
+        "red": "#FF5F57",
+        "green": "#3DDC97",
+        "yellow": "#FFC940",
+        "blue": "#4A9EFF",
+        "magenta": "#D77CFF",
+        "cyan": "#2ED3E6",
+        "white": "#C7CBD0",
+        "brightBlack": "#656B73",
+        "brightRed": "#FF8A84",
+        "brightGreen": "#73EBB5",
+        "brightYellow": "#FFDA75",
+        "brightBlue": "#7CB9FF",
+        "brightMagenta": "#E5A3FF",
+        "brightCyan": "#6CE3F0",
+        "brightWhite": "#FFFFFF",
+        "searchHitBackground": "#FFC940",
+        "searchHitBackgroundCurrent": "#FF5F57",
+        "searchHitForeground": "#111315"
+      }
+    }
+  ]
+}
