@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "737ec3e4-d152-418c-bc2b-7f89613008fe",
+      "name": "Quiet Light",
+      "author": "Microsoft Corporation",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#333333",
+        "background": "#F5F5F5",
+        "black": "#000000",
+        "red": "#CD3131",
+        "green": "#107C10",
+        "yellow": "#949800",
+        "blue": "#0451A5",
+        "magenta": "#BC05BC",
+        "cyan": "#0598BC",
+        "white": "#555555",
+        "brightBlack": "#666666",
+        "brightRed": "#F14C4C",
+        "brightGreen": "#14CE14",
+        "brightYellow": "#B5BA00",
+        "brightBlue": "#3B8EEA",
+        "brightMagenta": "#D670D6",
+        "brightCyan": "#29B8DB",
+        "brightWhite": "#A5A5A5"
+      }
+    }
+  ]
+}

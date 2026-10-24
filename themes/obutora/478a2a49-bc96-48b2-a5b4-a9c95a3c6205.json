@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "478a2a49-bc96-48b2-a5b4-a9c95a3c6205",
+      "name": "Terafox",
+      "author": "James Simpson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#E6EAEA",
+        "background": "#152528",
+        "cursor": "#CBD9D8",
+        "black": "#2F3239",
+        "red": "#E85C51",
+        "green": "#7AA4A1",
+        "yellow": "#FDA47F",
+        "blue": "#5A93AA",
+        "magenta": "#AD5C7C",
+        "cyan": "#A1CDD8",
+        "white": "#EBEBEB",
+        "brightBlack": "#4E5157",
+        "brightRed": "#EB746B",
+        "brightGreen": "#8EB2AF",
+        "brightYellow": "#FDB292",
+        "brightBlue": "#73A3B7",
+        "brightMagenta": "#B97490",
+        "brightCyan": "#AFD4DE",
+        "brightWhite": "#EEEEEE"
+      }
+    }
+  ]
+}

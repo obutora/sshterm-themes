@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "2bda8e74-263a-4053-ade5-194d6335fe7e",
+      "name": "Rosé Pine Dawn",
+      "author": "Rosé Pine",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#575279",
+        "background": "#FAF4ED",
+        "cursor": "#CECACD",
+        "black": "#F2E9E1",
+        "red": "#B4637A",
+        "green": "#286983",
+        "yellow": "#EA9D34",
+        "blue": "#56949F",
+        "magenta": "#907AA9",
+        "cyan": "#D7827E",
+        "white": "#575279",
+        "brightBlack": "#9893A5",
+        "brightRed": "#B4637A",
+        "brightGreen": "#286983",
+        "brightYellow": "#EA9D34",
+        "brightBlue": "#56949F",
+        "brightMagenta": "#907AA9",
+        "brightCyan": "#D7827E",
+        "brightWhite": "#575279"
+      }
+    }
+  ]
+}

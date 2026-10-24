@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "4d6c11c7-caf5-433b-827d-1047552f3890",
+      "name": "Duskfox",
+      "author": "James Simpson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#E0DEF4",
+        "background": "#232136",
+        "cursor": "#CDCBE0",
+        "black": "#393552",
+        "red": "#EB6F92",
+        "green": "#A3BE8C",
+        "yellow": "#F6C177",
+        "blue": "#569FBA",
+        "magenta": "#C4A7E7",
+        "cyan": "#9CCFD8",
+        "white": "#E0DEF4",
+        "brightBlack": "#47407D",
+        "brightRed": "#F083A2",
+        "brightGreen": "#B1D196",
+        "brightYellow": "#F9CB8C",
+        "brightBlue": "#65B1CD",
+        "brightMagenta": "#CCB1ED",
+        "brightCyan": "#A6DAE3",
+        "brightWhite": "#E2E0F7"
+      }
+    }
+  ]
+}

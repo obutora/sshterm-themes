@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "6f0f9b8b-ee1a-49ef-9a32-8755a1ef2270",
+      "name": "Tomorrow",
+      "author": "Chris Kempson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#4D4D4C",
+        "background": "#FFFFFF",
+        "cursor": "#AEAFAD",
+        "black": "#000000",
+        "red": "#C82829",
+        "green": "#718C00",
+        "yellow": "#F5871F",
+        "blue": "#4271AE",
+        "magenta": "#8959A8",
+        "cyan": "#3E999F",
+        "white": "#D6D6D6",
+        "brightBlack": "#666666",
+        "brightRed": "#FF3334",
+        "brightGreen": "#9EC400",
+        "brightYellow": "#EAB700",
+        "brightBlue": "#4271AE",
+        "brightMagenta": "#B777E0",
+        "brightCyan": "#54CED6",
+        "brightWhite": "#EFEFEF"
+      }
+    }
+  ]
+}

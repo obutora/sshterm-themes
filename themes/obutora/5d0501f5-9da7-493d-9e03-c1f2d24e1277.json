@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "5d0501f5-9da7-493d-9e03-c1f2d24e1277",
+      "name": "Ayu Light",
+      "author": "Ike Kurghinyan",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#5C6166",
+        "background": "#F8F9FA",
+        "selection": "#035BD626",
+        "black": "#000000",
+        "red": "#F06B6C",
+        "green": "#6CBF43",
+        "yellow": "#E7A100",
+        "blue": "#21A1E2",
+        "magenta": "#A176CB",
+        "cyan": "#4ABC96",
+        "white": "#C7C7C7",
+        "brightBlack": "#686868",
+        "brightRed": "#F07171",
+        "brightGreen": "#86B300",
+        "brightYellow": "#EBA400",
+        "brightBlue": "#22A4E6",
+        "brightMagenta": "#A37ACC",
+        "brightCyan": "#4CBF99",
+        "brightWhite": "#D1D1D1"
+      }
+    }
+  ]
+}

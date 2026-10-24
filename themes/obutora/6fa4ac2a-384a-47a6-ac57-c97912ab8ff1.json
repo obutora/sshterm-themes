@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "6fa4ac2a-384a-47a6-ac57-c97912ab8ff1",
+      "name": "Carbonfox",
+      "author": "James Simpson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#F2F4F8",
+        "background": "#161616",
+        "cursor": "#B6B8BB",
+        "black": "#282828",
+        "red": "#EE5396",
+        "green": "#25BE6A",
+        "yellow": "#08BDBA",
+        "blue": "#78A9FF",
+        "magenta": "#BE95FF",
+        "cyan": "#33B1FF",
+        "white": "#DFDFE0",
+        "brightBlack": "#484848",
+        "brightRed": "#F16DA6",
+        "brightGreen": "#46C880",
+        "brightYellow": "#2DC7C4",
+        "brightBlue": "#8CB6FF",
+        "brightMagenta": "#C8A5FF",
+        "brightCyan": "#52BDFF",
+        "brightWhite": "#E4E4E5"
+      }
+    }
+  ]
+}

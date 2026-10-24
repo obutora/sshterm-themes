@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "364daf91-0444-45f9-8f23-daf0d6b91704",
+      "name": "Tomorrow Night",
+      "author": "Chris Kempson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#C5C8C6",
+        "background": "#1D1F21",
+        "cursor": "#AEAFAD",
+        "black": "#000000",
+        "red": "#CC6666",
+        "green": "#B5BD68",
+        "yellow": "#DE935F",
+        "blue": "#81A2BE",
+        "magenta": "#B294BB",
+        "cyan": "#8ABEB7",
+        "white": "#373B41",
+        "brightBlack": "#666666",
+        "brightRed": "#FF3334",
+        "brightGreen": "#9EC400",
+        "brightYellow": "#F0C674",
+        "brightBlue": "#81A2BE",
+        "brightMagenta": "#B777E0",
+        "brightCyan": "#54CED6",
+        "brightWhite": "#282A2E"
+      }
+    }
+  ]
+}

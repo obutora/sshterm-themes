@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "007c5076-9b27-43b7-b5bd-405e51352cd8",
+      "name": "GitHub Dark Default",
+      "author": "Primer",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#E6EDF3",
+        "background": "#010409",
+        "black": "#484F58",
+        "red": "#FF7B72",
+        "green": "#3FB950",
+        "yellow": "#D29922",
+        "blue": "#58A6FF",
+        "magenta": "#BC8CFF",
+        "cyan": "#39C5CF",
+        "white": "#B1BAC4",
+        "brightBlack": "#6E7681",
+        "brightRed": "#FFA198",
+        "brightGreen": "#56D364",
+        "brightYellow": "#E3B341",
+        "brightBlue": "#79C0FF",
+        "brightMagenta": "#D2A8FF",
+        "brightCyan": "#56D4DD",
+        "brightWhite": "#FFFFFF"
+      }
+    }
+  ]
+}

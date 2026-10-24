@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "0c236297-c637-4b6a-a50a-17ffa6f73c0b",
+      "name": "Selenized Light",
+      "author": "Jan Warchoł",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#53676D",
+        "background": "#FBF3DB",
+        "black": "#ECE3CC",
+        "red": "#D2212D",
+        "green": "#489100",
+        "yellow": "#AD8900",
+        "blue": "#0072D4",
+        "magenta": "#CA4898",
+        "cyan": "#009C8F",
+        "white": "#909995",
+        "brightBlack": "#D5CDB6",
+        "brightRed": "#CC1729",
+        "brightGreen": "#428B00",
+        "brightYellow": "#A78300",
+        "brightBlue": "#006DCE",
+        "brightMagenta": "#C44392",
+        "brightCyan": "#00978A",
+        "brightWhite": "#3A4D53"
+      }
+    }
+  ]
+}

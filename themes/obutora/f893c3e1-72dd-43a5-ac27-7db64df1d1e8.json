@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "f893c3e1-72dd-43a5-ac27-7db64df1d1e8",
+      "name": "Nightfox",
+      "author": "James Simpson",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#CDCECF",
+        "background": "#192330",
+        "cursor": "#AEAFB0",
+        "black": "#393B44",
+        "red": "#C94F6D",
+        "green": "#81B29A",
+        "yellow": "#DBC074",
+        "blue": "#719CD6",
+        "magenta": "#9D79D6",
+        "cyan": "#63CDCF",
+        "white": "#DFDFE0",
+        "brightBlack": "#575860",
+        "brightRed": "#D16983",
+        "brightGreen": "#8EBAA4",
+        "brightYellow": "#E0C989",
+        "brightBlue": "#86ABDC",
+        "brightMagenta": "#BAA1E2",
+        "brightCyan": "#7AD5D6",
+        "brightWhite": "#E4E4E5"
+      }
+    }
+  ]
+}

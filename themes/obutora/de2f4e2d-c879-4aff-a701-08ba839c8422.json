@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "de2f4e2d-c879-4aff-a701-08ba839c8422",
+      "name": "Ayu Dark",
+      "author": "Ike Kurghinyan",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#BFBDB6",
+        "background": "#0D1017",
+        "selection": "#3388FF40",
+        "black": "#1B1F29",
+        "red": "#F06B73",
+        "green": "#70BF56",
+        "yellow": "#FDB04C",
+        "blue": "#4FBFFF",
+        "magenta": "#D0A1FF",
+        "cyan": "#93E2C8",
+        "white": "#C7C7C7",
+        "brightBlack": "#686868",
+        "brightRed": "#F07178",
+        "brightGreen": "#AAD94C",
+        "brightYellow": "#FFB454",
+        "brightBlue": "#59C2FF",
+        "brightMagenta": "#D2A6FF",
+        "brightCyan": "#95E6CB",
+        "brightWhite": "#FFFFFF"
+      }
+    }
+  ]
+}

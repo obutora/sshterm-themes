@@ -1,0 +1,32 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "0c7a5c33-f63b-4d52-ade6-ff6b15f19d52",
+      "name": "One Half Light",
+      "author": "Son A. Pham",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#383A42",
+        "background": "#FAFAFA",
+        "black": "#383A42",
+        "red": "#E45649",
+        "green": "#40A14F",
+        "yellow": "#C18401",
+        "blue": "#0184BC",
+        "magenta": "#A626A4",
+        "cyan": "#0997B3",
+        "white": "#FAFAFA",
+        "brightBlack": "#383A42",
+        "brightRed": "#E45649",
+        "brightGreen": "#40A14F",
+        "brightYellow": "#C18401",
+        "brightBlue": "#0184BC",
+        "brightMagenta": "#A626A4",
+        "brightCyan": "#0997B3",
+        "brightWhite": "#FAFAFA"
+      }
+    }
+  ]
+}

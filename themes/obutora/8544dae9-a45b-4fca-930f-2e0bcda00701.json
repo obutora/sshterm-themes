@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "8544dae9-a45b-4fca-930f-2e0bcda00701",
+      "name": "Flexoki Dark",
+      "author": "Steph Ango",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#E6E4D9",
+        "background": "#100F0F",
+        "cursor": "#DAD8CE",
+        "black": "#100F0F",
+        "red": "#AF3029",
+        "green": "#66800B",
+        "yellow": "#C19C00",
+        "blue": "#205EA6",
+        "magenta": "#5E409D",
+        "cyan": "#24837B",
+        "white": "#F2F0E5",
+        "brightBlack": "#575653",
+        "brightRed": "#D14D41",
+        "brightGreen": "#879A39",
+        "brightYellow": "#D0A215",
+        "brightBlue": "#4385BE",
+        "brightMagenta": "#8B7EC8",
+        "brightCyan": "#3AA99F",
+        "brightWhite": "#FFFCF0"
+      }
+    }
+  ]
+}

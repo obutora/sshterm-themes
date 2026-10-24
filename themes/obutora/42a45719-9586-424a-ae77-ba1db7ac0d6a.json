@@ -1,0 +1,33 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "42a45719-9586-424a-ae77-ba1db7ac0d6a",
+      "name": "Noctis Lilac",
+      "author": "Liviu Schera",
+      "license": "MIT",
+      "colors": {
+        "foreground": "#0C006B",
+        "background": "#E9E7F3",
+        "cursor": "#0C006B",
+        "black": "#0C006B",
+        "red": "#E34E1C",
+        "green": "#00B368",
+        "yellow": "#F49725",
+        "blue": "#0094F0",
+        "magenta": "#FF5792",
+        "cyan": "#00BDD6",
+        "white": "#8CA6A6",
+        "brightBlack": "#0F0080",
+        "brightRed": "#FF4000",
+        "brightGreen": "#00D17A",
+        "brightYellow": "#FF8C00",
+        "brightBlue": "#0FA3FF",
+        "brightMagenta": "#FF6B9F",
+        "brightCyan": "#00CBE6",
+        "brightWhite": "#BBC3C4"
+      }
+    }
+  ]
+}
