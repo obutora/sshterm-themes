@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "749ea940-1960-40e4-8c9b-dfc1e940ae61",
+      "name": "Deep Harbor",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#C9D6DF",
+        "background": "#0E1A22",
+        "cursor": "#F2C14E",
+        "selection": "#3A6A8A80",
+        "black": "#1A2B36",
+        "red": "#E06C6C",
+        "green": "#7FC79A",
+        "yellow": "#E8C46A",
+        "blue": "#6AA8E0",
+        "magenta": "#C58FD6",
+        "cyan": "#5CC6C8",
+        "white": "#B8C6CF",
+        "brightBlack": "#566F80",
+        "brightRed": "#F28B8B",
+        "brightGreen": "#9EDDB4",
+        "brightYellow": "#F5D88A",
+        "brightBlue": "#8EC1F0",
+        "brightMagenta": "#D9AAE6",
+        "brightCyan": "#84DCDD",
+        "brightWhite": "#EAF1F5",
+        "searchHitBackground": "#E8C46A",
+        "searchHitBackgroundCurrent": "#E06C6C",
+        "searchHitForeground": "#0E1A22"
+      }
+    }
+  ]
+}

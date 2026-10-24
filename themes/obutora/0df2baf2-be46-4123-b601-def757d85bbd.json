@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "0df2baf2-be46-4123-b601-def757d85bbd",
+      "name": "Sakura Mist",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#3D2F35",
+        "background": "#FBF1F2",
+        "cursor": "#C2456E",
+        "selection": "#E79AB366",
+        "black": "#3D2F35",
+        "red": "#B8324F",
+        "green": "#4A7A3A",
+        "yellow": "#8C6200",
+        "blue": "#3A5FA8",
+        "magenta": "#A23E86",
+        "cyan": "#23787A",
+        "white": "#E4D3D7",
+        "brightBlack": "#7D6B72",
+        "brightRed": "#CC4A66",
+        "brightGreen": "#5A8F48",
+        "brightYellow": "#A17410",
+        "brightBlue": "#4D73BD",
+        "brightMagenta": "#B6529A",
+        "brightCyan": "#2E8C8E",
+        "brightWhite": "#FFFAFB",
+        "searchHitBackground": "#F5D88A",
+        "searchHitBackgroundCurrent": "#F2A0B8",
+        "searchHitForeground": "#3D2F35"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "abd0d345-12fa-4a82-8079-9ae5bd492283",
+      "name": "Sand Dune",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#3B3226",
+        "background": "#EDE6D6",
+        "cursor": "#A35A2A",
+        "selection": "#C4A06A66",
+        "black": "#3B3226",
+        "red": "#A33A2A",
+        "green": "#4A6A22",
+        "yellow": "#775A00",
+        "blue": "#2C5788",
+        "magenta": "#85406E",
+        "cyan": "#1F6A62",
+        "white": "#D3C9B4",
+        "brightBlack": "#6E6250",
+        "brightRed": "#B54E3C",
+        "brightGreen": "#587C2C",
+        "brightYellow": "#8A6A08",
+        "brightBlue": "#3A699C",
+        "brightMagenta": "#985282",
+        "brightCyan": "#2A7C72",
+        "brightWhite": "#FAF6EC",
+        "searchHitBackground": "#E3C46A",
+        "searchHitBackgroundCurrent": "#E09070",
+        "searchHitForeground": "#3B3226"
+      }
+    }
+  ]
+}

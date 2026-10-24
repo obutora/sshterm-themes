@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "7bce6165-de76-4f46-b56f-793f332b1326",
+      "name": "Cloud Linen",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#2B2E33",
+        "background": "#F4F5F2",
+        "cursor": "#2B6CB0",
+        "selection": "#9DB8D880",
+        "black": "#2B2E33",
+        "red": "#B5373A",
+        "green": "#3E7B3A",
+        "yellow": "#876800",
+        "blue": "#2B6CB0",
+        "magenta": "#8B47A6",
+        "cyan": "#13777F",
+        "white": "#D5D8D4",
+        "brightBlack": "#707680",
+        "brightRed": "#C84C4E",
+        "brightGreen": "#4F8F4A",
+        "brightYellow": "#9B7A10",
+        "brightBlue": "#3F80C4",
+        "brightMagenta": "#9F5BBA",
+        "brightCyan": "#1F8C95",
+        "brightWhite": "#FFFFFF",
+        "searchHitBackground": "#F2D98A",
+        "searchHitBackgroundCurrent": "#F5A3A0",
+        "searchHitForeground": "#2B2E33"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format": "ssh-term-theme",
+  "formatVersion": 1,
+  "themes": [
+    {
+      "id": "e0165799-210c-412a-bf4b-47dc668d75c7",
+      "name": "Plum Dusk",
+      "author": "HagaKun",
+      "license": "CC0-1.0",
+      "colors": {
+        "foreground": "#DCD3E6",
+        "background": "#1B1622",
+        "cursor": "#F2A7C3",
+        "selection": "#8E6FB066",
+        "black": "#2A2233",
+        "red": "#EB7A8E",
+        "green": "#93CFA0",
+        "yellow": "#EDC77A",
+        "blue": "#8AA6F0",
+        "magenta": "#C696E8",
+        "cyan": "#7FCDD9",
+        "white": "#C4BAD0",
+        "brightBlack": "#6E617D",
+        "brightRed": "#F59AAA",
+        "brightGreen": "#B0E0BA",
+        "brightYellow": "#F5D99E",
+        "brightBlue": "#A9BFF6",
+        "brightMagenta": "#D8B3F2",
+        "brightCyan": "#A0DDE6",
+        "brightWhite": "#F3EEF8",
+        "searchHitBackground": "#EDC77A",
+        "searchHitBackgroundCurrent": "#EB7A8E",
+        "searchHitForeground": "#1B1622"
+      }
+    }
+  ]
+}
